@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script> 
+    </head>
+    <body>
+        <a-scene background = "color : #F0EDE4">
+            <a-entity geometry="primitive: box; width: 3" material="color: #D58469" position="1 0.85 0" shadow></a-entity>
+            <a-box color="#435861" width="3" position = "-1 1.25 -3" shadow></a-box>
+            <a-box position="-1 4 -3" rotation="0 45 0" color="#BBC0B6" dynamic-body shadow></a-box>
+            <a-sphere position = "2 2 -3" color="#C44B4F" radius = "1" height = "2" shadow></a-sphere>
+            <a-sky color = "#000000"></a-sky>
+        </a-scene>
+    </body>
+</html>
